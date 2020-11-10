@@ -44,12 +44,12 @@ header video {
   transform: translateX(-50%) translateY(-50%);
 }
 
-header .container {
+.container {
   position: relative;
   z-index: 2;
 }
 
-header .overlay {
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -67,4 +67,23 @@ header .overlay {
   header video {
     display: none;
   }
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* text overlay snippet*/
+.maintxt {position: relative;
+}
+.maintxt > img, .overlay-text {position: absolute;
 }
