@@ -1,2 +1,2 @@
-idiom.fun
+wemake.cloud
  
